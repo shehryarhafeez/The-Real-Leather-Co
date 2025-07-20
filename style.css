@@ -303,17 +303,6 @@ h1, h2, h3, h4 {
 }
 
 
-/* Responsive adjustments */
-@media (max-width: 768px) {
-  .media-logos {
-    gap: 15px; /* Smaller gap on mobile */
-  }
-  .media-logos img {
-    max-height: 35px;
-    max-width: 100px;
-  }
-}
-
 
 .collections {
   padding: 10px 1rem;
@@ -940,21 +929,6 @@ body {
   display: block;
 }
 
-@media (max-width: 768px) {
-  .faq-header h2 {
-    font-size: 1.5rem;
-  }
-
-  .faq-header p {
-    font-size: 0.95rem;
-  }
-
-  .faq-question {
-    font-size: 0.95rem;
-  }
-}
-
-
 
 /* footer Section */
 
@@ -1015,13 +989,15 @@ body {
         
 
 .footer-column {
-  min-width: 150px;
+  min-width: 250px;
+
 }
 
 .footer-column h4 {
-  font-size: 14px;
+  font-size: 20px;
   font-weight: bold;
-  margin-bottom: 15px;
+  
+   margin-bottom: 20px;
 }
 
 .footer-links {
@@ -1086,26 +1062,177 @@ body {
 .footer-policies a:hover {
   text-decoration: underline;
 }
-/* Responsive */
-@media (max-width: 768px) {
-  .footer-main {
+
+
+/* ---Responsive Support for Tablet and Mobile --- */
+@media (max-width: 1024px) {
+  .nav-wrapper {
+    padding: 15px 20px;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+    margin-top: 10px;
+  }
+
+  .header-icons {
+    justify-content: flex-start;
+    margin-top: 10px;
+  }
+
+  .bottom-info-bar,
+  .trust-bar {
+    flex-direction: column;
+    gap: 8px;
     text-align: center;
   }
 
-  .footer-logo {
+  .hero {
+    height: 50vh;
+    background-position: center;
+  }
+
+  .testimonial-grid {
+    grid-template-columns: 1fr;
+    padding: 0 1rem;
+  }
+
+  .testimonial-card {
+    height: auto;
+    padding: 1rem;
+  }
+
+  .testimonial-content {
+    bottom: 0;
+    text-align: center;
+    padding-bottom: 1rem;
+  }
+
+  .collections-grid {
+    grid-template-columns: 1fr;
+    padding: 0 1rem;
+  }
+
+  .collection-card img {
+    height: auto;
+  }
+
+  .view-all-link,
+  .view-all,
+  .cta-button,
+  .story-button,
+  .primary-button {
+    padding: 12px 30px;
+    width: 80%;
+    font-size: 1rem;
+  }
+
+  .quote-section {
+    flex-direction: column;
+    padding: 20px;
+    gap: 40px;
+  }
+
+  .quote-block {
+    max-width: 90%;
+  }
+
+  .highlighted-section {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .highlighted-text {
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+  }
+
+  .highlighted-text h1 {
+    font-size: 2rem;
+  }
+
+  .story-section {
+    flex-direction: column;
+  }
+
+  .story-image img {
+    border-radius: 0;
+  }
+
+  .story-text {
+    padding: 2rem;
+    text-align: center;
+    align-items: center;
+  }
+
+  .story-text h1 {
+    font-size: 2rem;
+  }
+
+  .products .grid {
+    grid-template-columns: 1fr;
+    padding: 0;
+  }
+
+  .card {
+    margin: 10px auto;
+    width: 90%;
+  }
+
+  .text-wrapper {
+    margin: 2rem auto;
+    text-align: center;
+  }
+
+  .button-wrapper {
+    text-align: center;
+    margin: 1rem auto;
+  }
+
+  .media-logos {
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+
+  .media-logos img {
+    max-width: 100px;
+    max-height: 40px;
+  }
+
+  .dropdown-menu {
+    position: static;
+    width: 100%;
+    flex-direction: column;
+    padding: 20px 10px;
+    box-shadow: none;
+    margin-top: 10px;
+  }
+
+  .left_side_dropdown_pic {
+    width: 100%;
+    height: auto;
+  }
+
+  .menu-column {
+    width: 100%;
     margin-bottom: 20px;
+  }
+
+  .footer-main {
+    flex-direction: column;
+    text-align: center;
   }
 
   .footer-bottom {
     flex-direction: column;
-    text-align: center;
     gap: 10px;
-  }
-
-  .footer-links-bottom {
-    justify-content: center;
+    text-align: center;
   }
 
   .newsletter-form {
@@ -1114,8 +1241,69 @@ body {
 
   .newsletter-form input {
     width: 100%;
-    
   }
 
+  .faq-header h2 {
+    font-size: 1.5rem;
+  }
+
+  .faq-header p {
+    font-size: 1rem;
+  }
+
+  .faq-question {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .nav-wrapper {
+    padding: 10px;
+  }
+
+  .brand-logo {
+    font-size: 20px;
+  }
+
+  .brand-tagline {
+    font-size: 14px;
+    margin-top: 2px;
+  }
+
+  .testimonial-content p,
+  .collection-card span,
+  .story-text p,
+  .highlighted-text p {
+    font-size: 0.95rem;
+  }
+
+  .highlighted-text h1,
+  .story-text h1 {
+    font-size: 1.6rem;
+  }
+
+  .primary-button,
+  .cta-button,
+  .story-button {
+    width: 90%;
+    padding: 12px;
+  }
+
+  .view-all,
+  .view-all-link {
+    padding: 12px 40px;
+  }
+
+  .card h3 {
+    font-size: 20px;
+  }
+
+  .card p {
+    font-size: 14px;
+  }
+
+  .footer-links a {
+    font-size: 12px;
+  }
 }
 
