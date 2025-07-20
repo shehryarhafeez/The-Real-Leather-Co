@@ -1,14 +1,10 @@
-body {
+*body {
   font-family: serif;
   font-style: normal;
   font-weight: 400;
+  font-family: 'Linotype Syntax Serif', Georgia, Times, serif;
 }
 
-h1, h2, h3, h4 {
-  font-family: 'Linotype Syntax Serif', Georgia, Times, serif;
-  font-style: normal;
-  font-weight: 700;
-}
 
 .announcement-bar {
   background-color: #000;
@@ -833,7 +829,7 @@ body {
   max-width: 800px;
   margin: 0 auto;
   padding: 20px 0px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Sharp-Sans-Medium';
   background-color: #fff;
   color: #111;
   line-height: 1.6;
@@ -896,7 +892,7 @@ body {
   font-weight: 600;
   cursor: pointer;
   position: relative;
-  color: #141414;
+  color:  #4d4d4d;
   box-sizing: border-box;
   font-family: "Sharp-Sans";
 }
@@ -1096,6 +1092,7 @@ body {
   .testimonial-grid {
     grid-template-columns: 1fr;
     padding: 0 1rem;
+     height: 50vh;
   }
 
   .testimonial-card {
