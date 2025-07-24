@@ -42,6 +42,7 @@ The following sections have been successfully designed and developed:
 └── /img
 
 ├── index.html
+
 ├── style.css
 
 
