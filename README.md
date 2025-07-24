@@ -39,9 +39,11 @@ The following sections have been successfully designed and developed:
 ---
 
 ## 📁 Folder Structure
+└── /img
+
 ├── index.html
 ├── style.css
-└── /img
+
 
 ## ✍️ Author
 
