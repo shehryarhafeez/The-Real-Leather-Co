@@ -1,6 +1,7 @@
 # 🧳 Real Leather Company Website Replica (Practice Project)
 
-This is a **practice replica** of the official [The Real Leather Company](https://therealleathercompany.com) website. The project is built purely for **learning and front-end development practice** purposes. No commercial intent is associated with this project.
+This is a **practice replica** of the official The Real Leather Company website. 
+The project is built purely for **learning and front-end development practice** purposes. No commercial intent is associated with this project.
 
 ---
 
@@ -33,7 +34,7 @@ The following sections have been successfully designed and developed:
 
 ## ⚠️ Disclaimer
 
-> This project is a **non-commercial, educational-only replica** of the website [TheRealLeatherCompany.com](https://therealleathercompany.com).  
+> This project is a **non-commercial, educational-only replica** of the website [https://therealleathercompany.com]  
 > All content and trademarks belong to their respective owners.
 
 ---
@@ -45,8 +46,14 @@ The following sections have been successfully designed and developed:
 
 ├── style.css
 
+🌟 Live Demo
+[https://shehryarhafeez.github.io/The-Real-Leather-Co/]
 
 ## ✍️ Author
 
-Made by [Shehryar Hafeez]  
-📫 Contact: [shehryarhafeez180@gmail.com]
+Made by 
+[Shehryar Hafeez]  
+📫 Contact: 
+[shehryarhafeez180@gmail.com]
+
+Project Link: [https://github.com/shehryarhafeez/The-Real-Leather-Co]
